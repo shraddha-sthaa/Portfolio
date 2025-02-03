@@ -16,6 +16,6 @@ Hey there! I'm Mallikarjun, a Data Science grad student at the University of New
 🐍 Python | 🏗️ TensorFlow | 🔬 PyTorch | 📦 Docker | ☁️ AWS  
 
 ## 🔗 Web-Sling with Me  
-[🕵️‍♂️ LinkedIn](https://www.linkedin.com/in/mallikarjun-aitha/) | [🖥️ GitHub](https://github.com/mallikarjun25) | [📧 Email](mailto:mallikarjunaitha@gmail.com)  
+[🌐 Portfolio](https://mallikarjun.streamlit.app) | [🕵️‍♂️ LinkedIn](https://www.linkedin.com/in/mallikarjun-aitha/) | [🖥️ GitHub](https://github.com/mallikarjun25) | [📧 Email](mailto:mallikarjunaitha@gmail.com)  
 
 _"With great data comes great responsibility!"_ 🚀  
