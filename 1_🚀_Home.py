@@ -20,7 +20,7 @@ with st.container():
     with col1:
         # Display profile image
         st.markdown('<div class="profile-img">', unsafe_allow_html=True)
-        st.image('./assets/img/profile-pic.png', width=390)
+        st.image('./assets/img/profile-pic.png', width=375)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with col2:
