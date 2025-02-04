@@ -1,14 +1,17 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title='Projects', page_icon="🕸️")
+# Set page configuration
+st.set_page_config(page_title='Mallikarjun - Projects', layout="wide", page_icon="🕸️")
 
+# Page title
 st.title('Projects')
 
+# Project 1: Data Engineering for Smart City Monitoring
 with st.container():
   col1, col2 = st.columns((1, 2))
   with col1:
-    st.image(Image.open('./assets/img/DSDE.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/DSDE.png'))  # Project image
   with col2:
     st.subheader("Case Study: Data Engineering for Smart City Monitoring")
     st.write("""
@@ -17,10 +20,13 @@ with st.container():
     st.markdown('`Amazon Web Services (AWS)`, `Apache Spark`, `Apache Kafka`, `Data Analysis`, `Python`, `Microsoft Power BI`, `Data Visualization`, `Machine Learning`, `pandas`, `Git`, `Exploratory Data Analysis`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/Data-Engineering-for-Smart-City-Monitoring)')
 
+st.write('---')
+
+# Project 2: Quora Question Pair Similarity
 with st.container():
   col1, col2 = st.columns((1, 2))
   with col1:
-    st.image(Image.open('./assets/img/DL.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/DL.png'))  # Project image
   with col2:
     st.subheader("Quora Question Pair Similarity")
     st.write("""
@@ -31,10 +37,11 @@ with st.container():
 
 st.write('---')
 
+# Project 3: Himalayan Climbing Trends Analysis
 with st.container():
   col3, col4 = st.columns((1, 2))
   with col3:
-    st.image(Image.open('./assets/img/PBI.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/PBI.png'))  # Project image
   with col4:
     st.subheader("Himalayan Climbing Trends Analysis")
     st.write("""
@@ -45,10 +52,11 @@ with st.container():
 
 st.write('---')
 
+# Project 4: Tic-Tac-Toe with Multiple Agents
 with st.container():
   col5, col6 = st.columns((1, 2))
   with col5:
-    st.image(Image.open('./assets/img/AI.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/AI.png'))  # Project image
   with col6:
     st.subheader("Tic-Tac-Toe with Multiple Agents")
     st.write("""
@@ -59,10 +67,11 @@ with st.container():
 
 st.write('---')
 
+# Project 5: Water Quality Prediction
 with st.container():
   col7, col8 = st.columns((1, 2))
   with col7:
-    st.image(Image.open('./assets/img/DS.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/DS.png'))  # Project image
   with col8:
     st.subheader("Water Quality Prediction")
     st.write("""
@@ -73,10 +82,11 @@ with st.container():
 
 st.write('---')
 
+# Project 6: Geeks Holiday Planners
 with st.container():
   col9, col10 = st.columns((1, 2))
   with col9:
-    st.image(Image.open('./assets/img/AEM.png'))  # Replace with your project image
+    st.image(Image.open('./assets/img/AEM.png'))  # Project image
   with col10:
     st.subheader("Geeks Holiday Planners")
     st.write("""
