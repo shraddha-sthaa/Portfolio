@@ -12,7 +12,7 @@ st.set_page_config(
 # Main content
 with st.container():
     st.title("Hey there! 👋  I'm a Data Spider 🕷️")  # Title
-
+    st.markdown("")
     st.markdown("")
     # Create two columns with a minimal gap
     col1, col2 = st.columns((1, 1.5))
@@ -20,7 +20,7 @@ with st.container():
     with col1:
         # Display profile image
         st.markdown('<div class="profile-img">', unsafe_allow_html=True)
-        st.image('./assets/img/profile-pic.png', width=400)
+        st.image('./assets/img/profile-pic.png', width=323)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with col2:
