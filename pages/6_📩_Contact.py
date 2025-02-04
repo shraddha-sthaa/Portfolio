@@ -14,7 +14,7 @@ local_css("style/style.css")
 st.header("📫 Get in Touch")
 
 contact_form = """
-<form action="https://formsubmit.co/mallikarjunaitha@gmail.com" method="POST">
+<form action="https://formsubmit.co/feaa3c03ce9b3f1f99b0663d16747021" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
