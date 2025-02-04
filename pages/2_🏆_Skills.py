@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set page configuration
 st.set_page_config(
-    page_title="Mallikarjun Aitha - Data Scientist",
+    page_title="Mallikarjun - Skills",
     page_icon="🕸️",
     layout="wide",
     initial_sidebar_state="expanded"
