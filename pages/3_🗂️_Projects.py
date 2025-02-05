@@ -1,9 +1,13 @@
 import streamlit as st
 from PIL import Image
 from sidebar import add_sidebar_message
+from sidebar import add_sidebar_message
 
 # Set page configuration
 st.set_page_config(page_title='Mallikarjun - Projects', layout="wide", page_icon="🕸️")
+
+# Add the sidebar footer
+add_sidebar_message()
 
 # Add the sidebar footer
 add_sidebar_message()
@@ -98,4 +102,3 @@ with st.container():
     """)
     st.markdown('`Adobe Experience Manager (AEM)`, `Maven`, `Postman API`, `HTL`, `HTML`, `PostgreSQL`, `Web Development`, `REST APIs`, `OSGi`, `Git`, `React.js`, `User Experience (UX)`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/Geeks-Holiday-Planners)')
-    
