@@ -18,7 +18,7 @@ with st.container():
     st.title("Hey there! 👋  I'm a Data Spider 🕷️")  # Title
 
     # Create two columns with a minimal gap
-    col1, col2 = st.columns((1, 1.5))
+    col1, col2 = st.columns((1, 1.5), gap="small")
     
     with col1:
         # Display profile image
