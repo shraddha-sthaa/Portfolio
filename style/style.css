@@ -3,63 +3,62 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 12px; /* Increased padding for a more premium feel */
-  border: 1px solid #d1d1d1; /* Softer, subtle border */
-  border-radius: 8px; /* Rounded corners for a smooth look */
+  padding: 12px; /* More padding for a premium feel */
+  border: 1px solid #d1d1d1; /* Softer border */
+  border-radius: 8px; /* More rounded corners */
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 10px;
   font-size: 15px;
   font-family: "SF Pro Display", Arial, sans-serif; /* Apple-like font */
-  transition: all 0.3s ease-in-out; /* Smooth transition for interaction */
+  transition: all 0.3s ease-in-out;
   background-color: #f5f5f5; /* Light background for contrast */
-  color: #333; /* Readable dark text */
+  color: #333; /* Dark text for readability */
 }
 
-/* Focus effect with a bold red border */
+/* Subtle hover & focus effect */
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: #e23636; /* Spider-Man red border */
+  border-color: #e23636; /* Spider-Man red */
   outline: none;
-  box-shadow: 0 0 8px rgba(226, 54, 54, 0.3); /* Red shadow to emphasize focus */
+  box-shadow: 0 0 8px rgba(226, 54, 54, 0.3); /* Red shadow */
 }
 
 /* Textarea resize behavior */
 textarea {
-  resize: vertical; /* Allow resizing vertically */
-  min-height: 100px; /* Ensure textarea has a minimum height */
+  resize: vertical;
+  min-height: 100px;
 }
 
-/* Submit Button Styling */
+/* Button Styling */
 button[type="submit"] {
-  background: linear-gradient(135deg, #e23636, #b31b1b); /* Red gradient for a dynamic look */
+  background: linear-gradient(135deg, #e23636, #b31b1b); /* Red gradient */
   color: white;
   border: none;
-  padding: 12px 24px; /* Slightly larger padding for emphasis */
-  border-radius: 8px; /* Rounded corners */
+  padding: 12px 24px; /* Slightly larger padding */
+  border-radius: 8px; /* More rounded corners */
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold; /* Bold text for visibility */
-  transition: background 0.3s, box-shadow 0.3s, transform 0.3s; /* Smooth effects on hover */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
-/* Hover effect for submit button */
 button[type="submit"]:hover {
-  background: linear-gradient(135deg, #b31b1b, #8a1414); /* Darker red gradient on hover */
+  background: linear-gradient(135deg, #b31b1b, #8a1414); /* Darker red gradient */
   box-shadow: 0 6px 18px rgba(226, 54, 54, 0.3); /* Red shadow */
-  transform: translateY(-2px); /* Slight lift effect on hover */
+  transform: translateY(-2px); /* Slight lift effect */
 }
 
-/* Social Media Icons Container */
+/* Social Media Icons Styling (No text, just clickable icons) */
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 15px; /* Space between the icons */
+  gap: 15px; /* Space between icons */
   margin-top: 20px;
 }
 
-/* Styling for each social media icon */
+/* Make the icons larger and interactive */
 .social-icons a {
   display: inline-block;
   width: 40px;
@@ -67,25 +66,20 @@ button[type="submit"]:hover {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  background: #e23636; /* Spider-Man red background */
-  transition: all 0.3s ease-in-out; /* Smooth transition */
+  background: #e23636; /* Spider-Man red */
+  transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect for social icons */
+/* Add slight hover effect to social icons */
 .social-icons a:hover {
-  background: #b31b1b; /* Darker red background on hover */
-  transform: scale(1.1); /* Slightly larger size on hover */
+  background: #b31b1b; /* Darker red on hover */
+  transform: scale(1.1);
 }
 
-/* Styling for SVG icons inside the social links */
+/* SVG Icons inside social links */
 .social-icons a img {
   width: 24px;
   height: 24px;
-  filter: brightness(0) invert(1); /* White icons for contrast */
-  transition: all 0.3s ease-in-out; /* Smooth transition on hover */
-}
-
-/* Change icon color on hover */
-.social-icons a:hover img {
-  filter: brightness(1) invert(0); /* Return to original color on hover */
+  filter: brightness(0) invert(1); /* White icons */
+  transition: all 0.3s ease-in-out;
 }
