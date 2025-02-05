@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from sidebar import add_sidebar_message
 
 # Set page configuration (title, icon, layout, sidebar state)
 st.set_page_config(
@@ -9,18 +10,20 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Add the sidebar footer
+add_sidebar_message()
+
 # Main content
 with st.container():
     st.title("Hey there! 👋  I'm a Data Spider 🕷️")  # Title
-    st.markdown("")
-    st.markdown("")
+
     # Create two columns with a minimal gap
     col1, col2 = st.columns((1, 1.5))
     
     with col1:
         # Display profile image
         st.markdown('<div class="profile-img">', unsafe_allow_html=True)
-        st.image('./assets/img/profile-pic.png', width=375)
+        st.image('./assets/img/profile-pic.png', width=450)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with col2:
@@ -34,8 +37,7 @@ with st.container():
         
         # Career background and expertise
         st.markdown("""
-            My journey spans working as a Software Engineer and Data Analyst Intern at American Express and a non-profit 
-            organization, where I leveraged analytics to refine strategies, enhance offerings, and create data-driven solutions. 
+            My journey spans working as an Associate Analyst at American Express and Data Analyst at Downtown Evening Soup Kitchen, where I utilized analytics to refine strategies, enhance offerings, and create data-driven solutions. 
             Whether it’s developing machine learning models, exploring spatial data with GIS, or automating workflows, 
             I thrive on solving complex challenges and delivering actionable intelligence.
             """)
