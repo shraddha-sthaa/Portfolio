@@ -1,4 +1,5 @@
 import streamlit as st
+from sidebar import add_sidebar_message
 
 # Set page configuration
 st.set_page_config(
@@ -7,6 +8,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Add the sidebar footer
+add_sidebar_message()
 
 st.markdown("## Skills")
 
