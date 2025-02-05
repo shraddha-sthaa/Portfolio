@@ -1,7 +1,11 @@
 import streamlit as st
+from sidebar import add_sidebar_message
 
 # Page Configuration
 st.set_page_config(page_title='Mallikarjun - Contact', layout="wide", page_icon="🕸️")
+
+# Add the sidebar footer
+add_sidebar_message()
 
 # Function to add local CSS
 def local_css(file_name):
