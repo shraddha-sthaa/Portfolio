@@ -16,7 +16,7 @@ add_sidebar_message()
 # Main content
 with st.container():
     st.title("Hey there! 👋  I'm a Data Spider 🕷️")  # Title
-
+    st.markdown("")
     # Create two columns with a minimal gap
     col1, col2 = st.columns((1, 1.5), gap="small")
     
@@ -29,10 +29,7 @@ with st.container():
     with col2:
         # Personal introduction
         st.markdown("""
-            **I'm Mallikarjun Aitha**, a passionate Data Scientist on a mission to transform raw data into powerful insights 
-            that drive real-world impact! With a Master’s in Data Science from the University of New Haven and hands-on 
-            expertise in Machine Learning, Spatial Data Science, and Advanced Analytics, I specialize in uncovering patterns, 
-            optimizing decisions, and building predictive solutions that make a difference.
+            **I'm Mallikarjun Aitha**, your go-to Data Spider, here to spin raw data into actionable insights with a dash of data-driven magic! Armed with a Master’s in Data Science from the University of New Haven and hands-on experience in Machine Learning (ML), Spatial Data Science, and Advanced Analytics, I specialize in turning complex data problems into clear, impactful solutions. Currently, I work as a GIS Analyst at the University of New Haven, analyzing New Haven Police Department Crime data
             """)
         
         # Career background and expertise
