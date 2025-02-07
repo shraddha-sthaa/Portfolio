@@ -24,7 +24,7 @@ with st.container():
     st.subheader("InceptFace")
     st.write("""
 This project implements a facial recognition system using InceptionResNetV1 and a custom dataset, with MTCNN for face detection and a robust preprocessing pipeline. The model is trained with Adam optimizer and Cross Entropy Loss for multi-class classification.""")
-    st.markdown('`InceptionResNetV1`, `Python`, `PyTorch`, `Deep Learning`, `Facial Recognition`, `Adam Optimizer`, `Cross Entropy Loss`, `Multi-class Classification`, `Data Preprocessing`')
+    st.markdown('`facenet-PyTorch`, `InceptionResNetV1`, `Python`, `Deep Learning`, `Facial Recognition`, `Multi-class Classification`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/InceptFace)')
 
 st.write('---')
@@ -39,7 +39,7 @@ with st.container():
     st.write("""
     Empowering smart city monitoring with a real-time data processing pipeline using Apache Spark Structured Streaming and Kafka, seamlessly integrated with Amazon S3, and analyzed insights through PowerBI dashboard for actionable urban management.
     """)
-    st.markdown('`Amazon Web Services (AWS)`, `Apache Spark`, `Apache Kafka`, `Data Analysis`, `Python`, `Microsoft Power BI`, `Data Visualization`, `Machine Learning`, `pandas`, `Git`, `Exploratory Data Analysis`')
+    st.markdown('`Amazon Web Services (AWS)`, `Apache Spark`, `Apache Kafka`, `Data Analysis`, `Python`, `Microsoft Power BI`, `Machine Learning`, `pandas`, `ETL`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/Data-Engineering-for-Smart-City-Monitoring)')
 
 st.write('---')
