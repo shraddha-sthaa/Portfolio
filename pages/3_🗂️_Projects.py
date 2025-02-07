@@ -15,7 +15,21 @@ add_sidebar_message()
 # Page title
 st.title('Projects')
 
-# Project 1: Data Engineering for Smart City Monitoring
+# Project: InceptFace
+with st.container():
+  col9, col10 = st.columns((1, 2))
+  with col9:
+    st.image(Image.open('./assets/img/DeepLearning.png'))  # Project image
+  with col10:
+    st.subheader("InceptFace")
+    st.write("""
+This project implements a facial recognition system using InceptionResNetV1 and a custom dataset, with MTCNN for face detection and a robust preprocessing pipeline. The model is trained with Adam optimizer and Cross Entropy Loss for multi-class classification.""")
+    st.markdown('`InceptionResNetV1`, `Python`, `PyTorch`, `Deep Learning`, `Facial Recognition`, `Adam Optimizer`, `Cross Entropy Loss`, `Multi-class Classification`, `Data Preprocessing`')
+    st.markdown('[GitHub](https://github.com/mallikarjun25/InceptFace)')
+
+st.write('---')
+
+# Project: Data Engineering for Smart City Monitoring
 with st.container():
   col1, col2 = st.columns((1, 2))
   with col1:
@@ -30,7 +44,7 @@ with st.container():
 
 st.write('---')
 
-# Project 2: Quora Question Pair Similarity
+# Project: Quora Question Pair Similarity
 with st.container():
   col1, col2 = st.columns((1, 2))
   with col1:
@@ -45,7 +59,7 @@ with st.container():
 
 st.write('---')
 
-# Project 3: Himalayan Climbing Trends Analysis
+# Project: Himalayan Climbing Trends Analysis
 with st.container():
   col3, col4 = st.columns((1, 2))
   with col3:
@@ -60,7 +74,7 @@ with st.container():
 
 st.write('---')
 
-# Project 4: Tic-Tac-Toe with Multiple Agents
+# Project: Tic-Tac-Toe with Multiple Agents
 with st.container():
   col5, col6 = st.columns((1, 2))
   with col5:
@@ -75,7 +89,7 @@ with st.container():
 
 st.write('---')
 
-# Project 5: Water Quality Prediction
+# Project: Water Quality Prediction
 with st.container():
   col7, col8 = st.columns((1, 2))
   with col7:
@@ -90,7 +104,7 @@ with st.container():
 
 st.write('---')
 
-# Project 6: Geeks Holiday Planners
+# Project: Geeks Holiday Planners
 with st.container():
   col9, col10 = st.columns((1, 2))
   with col9:
