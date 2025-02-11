@@ -30,35 +30,33 @@ with st.container():
         # Personal introduction
         st.markdown("""
             **I'm Shraddha Shrestha**, your go-to Data Analyst, here to utilize the power of data to make a difference.
+            """)
+        
+        st.markdown("""
             "Without data, you're just another person with an opinion." We've all heard this, and honestly, it's kind of true. 
             In today's world, data isn't just powerful—it’s a game-changer. It can shape narratives, drive decisions, and sometimes 
             even cause chaos. That’s why I find it so fascinating.
-            """)
-        
+             """)
         # Background and expertise
         st.markdown("""
-            My journey into data started with a simple conversation during my undergrad with the CEO of ING Skills Academy, and 
-            ever since, I’ve been hooked. Now, as an MS Data Science student at the University of New Haven, I thrive on 
-            turning raw data into meaningful insights through machine learning and AI. Because let’s be real—with great algorithms 
-            comes great responsibility! And let’s not forget—without proper data cleaning, all you have is garbage in, garbage out.
+            My data journey began with a conversation during undergrad with the CEO, and I’ve been hooked ever since. Now, as an MS Data Science student at 
+            the University of New Haven, I turn raw data into meaningful insights through machine learning and AI—because with great algorithms comes great responsibility! 
+            And let’s be real, without proper data cleaning, it’s just garbage in, garbage out.
             """)
 
         # Current job
         st.markdown("""
-            Currently, I work as a Graduate Assistant, where I don’t just analyze data—I make it work smarter. I ensure seamless data integration between the Common App and internal systems, 
-            manage live student data in Slate with precision, and collaborate with the marketing team to uncover trends that drive better enrollment strategies. Basically, if there’s a way to 
-            optimize something with data, I’m on it.
+            As a Graduate Assistant, I don’t just analyze data—I make it work smarter. I manage data integration, 
+            oversee live student data in Slate, and collaborate with marketing to uncover trends that 
+            enhance enrollment strategies. Previously, as a Data Analyst intern at Downtown Evening Soup Kitchen, I 
+            built Power BI dashboards to track donations and optimized resource distribution for greater impact.
             """)
         
-        # Relevant experience
-        st.markdown("""
-            Previously, as a Data Analyst intern at Downtown Evening Soup Kitchen, I built real-time Power BI dashboards to track donations and monitored homeless populations to optimize resource distribution. 
-                    It was data with impact—helping the team make smarter, more efficient decisions to support those in need.
-                    """)
 
         # Closing statement
         st.markdown("""
-            From predicting enrollment trends to fine-tuning donation strategies, my goal is simple: turn numbers into narratives and data into decisions. Because at the end of the day, data might not lie, but it sure loves a good storyteller! 
+            From predicting enrollment trends to fine-tuning donation strategies, I turn numbers into narratives and data into 
+            decisions—because data might not lie, but it sure loves a good storyteller!
             """)
 
         # Resume download button
