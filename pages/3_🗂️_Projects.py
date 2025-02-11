@@ -4,7 +4,7 @@ from sidebar import add_sidebar_message
 from sidebar import add_sidebar_message
 
 # Set page configuration
-st.set_page_config(page_title='Mallikarjun - Projects', layout="wide", page_icon="🕸️")
+st.set_page_config(page_title='Shraddha - Projects', layout="wide", page_icon="❄")
 
 # Add the sidebar footer
 add_sidebar_message()
@@ -25,19 +25,18 @@ with st.container():
     st.write("""
 This project implements a facial recognition system using InceptionResNetV1 and a custom dataset, with MTCNN for face detection and a robust preprocessing pipeline. The model is trained with Adam optimizer and Cross Entropy Loss for multi-class classification.""")
     st.markdown('`facenet-PyTorch`, `InceptionResNetV1`, `Python`, `Deep Learning`, `Facial Recognition`, `Multi-class Classification`')
-    st.markdown('[GitHub](https://github.com/mallikarjun25/InceptFace)')
-
+    st.markdown('[GitHub](https://github.com/shraddha-sthaa/Deep-Learning-Project.git)')
 st.write('---')
 
-# Project: Data Engineering for Smart City Monitoring
+# Project: Trading Strategy Planner
 with st.container():
   col1, col2 = st.columns((1, 2))
   with col1:
     st.image(Image.open('./assets/img/DSDE.png'))  # Project image
   with col2:
-    st.subheader("Case Study: Data Engineering for Smart City Monitoring")
+    st.subheader("Trading Strategy Planner")
     st.write("""
-    Empowering smart city monitoring with a real-time data processing pipeline using Apache Spark Structured Streaming and Kafka, seamlessly integrated with Amazon S3, and analyzed insights through PowerBI dashboard for actionable urban management.
+    Developed an automated data processing pipeline for ABC Hedge Fund, utilizing Yahoo Finance API over million records from S&P 1000 and S&P 500 indices. Leveraged AWS Glue, Lambda, SQS Queue, and S3 storage for efficient data processing. Conducted feature engineering and integrated with Redshift database for advanced analytics and ML model training
     """)
     st.markdown('`Amazon Web Services (AWS)`, `Apache Spark`, `Apache Kafka`, `Data Analysis`, `Python`, `Microsoft Power BI`, `Machine Learning`, `pandas`, `ETL`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/Data-Engineering-for-Smart-City-Monitoring)')
@@ -104,13 +103,13 @@ with st.container():
 
 st.write('---')
 
-# Project: Geeks Holiday Planners
+# Project: Serenity
 with st.container():
   col9, col10 = st.columns((1, 2))
   with col9:
     st.image(Image.open('./assets/img/AEM.png'))  # Project image
   with col10:
-    st.subheader("Geeks Holiday Planners")
+    st.subheader("Serenity")
     st.write("""
     Dynamic international travel and tourism website built with Adobe Experience Manager (AEM), showcasing location-based travel destinations and tour options.
     """)

@@ -4,7 +4,7 @@ from sidebar import add_sidebar_message
 # Set page configuration
 st.set_page_config(
     page_title="Shraddha - Skills",
-    page_icon="🕸️",
+    page_icon="❄",
     layout="wide",
     initial_sidebar_state="expanded"
 )

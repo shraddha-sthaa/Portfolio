@@ -5,7 +5,7 @@ from sidebar import add_sidebar_message
 # Set page configuration (title, icon, layout, sidebar state)
 st.set_page_config(
     page_title="Shraddha Shrstha - Data Analyst",
-    page_icon="🕸️",
+    page_icon="❄",
     layout="wide",
     initial_sidebar_state="expanded"
 )
