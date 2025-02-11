@@ -18,11 +18,7 @@ st.markdown("## Skills")
 st.markdown("### Programming:")
 st.markdown("""
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#) 
-[![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)](#) 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#) 
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)   
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](#) 
-[![Notebook](https://img.shields.io/badge/Notebook-FF9800?style=for-the-badge)](#)  
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](#)  
 """, unsafe_allow_html=True)
 
 # AI/ML Frameworks
@@ -39,8 +35,7 @@ st.markdown("""
 st.markdown("### Databases:")
 st.markdown("""
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](#) 
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#) 
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](#)  
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)   
 """, unsafe_allow_html=True)
 
 # Visualization
@@ -57,13 +52,6 @@ st.markdown("""
 # Cloud Services
 st.markdown("### Cloud Services:")
 st.markdown("""
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](#) 
-[![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](#)  
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](#)   
 """, unsafe_allow_html=True)
 
-# GIS
-st.markdown("### Geographic Information System (GIS):")
-st.markdown("""
-[![ESRI](https://img.shields.io/badge/ESRI-0076D6?style=for-the-badge)](#) 
-[![ArcGIS](https://img.shields.io/badge/ArcGIS-1E4D2B?style=for-the-badge)](#)  
-""", unsafe_allow_html=True)
