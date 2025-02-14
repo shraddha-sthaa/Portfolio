@@ -2,7 +2,7 @@ import streamlit as st
 from sidebar import add_sidebar_message
 
 # Page Configuration
-st.set_page_config(page_title='Mallikarjun - Contact', layout="wide", page_icon="🕸️")
+st.set_page_config(page_title='Shraddha - Contact', layout="wide", page_icon="❄")
 
 # Add the sidebar footer
 add_sidebar_message()
@@ -18,7 +18,7 @@ local_css("style/style.css")
 st.header("📫 Get in touch with me")
 
 contact_form = """
-<form action="https://formsubmit.co/mallikarjunaitha@gmail.com" method="POST">
+<form action="https://formsubmit.co/imshraddha24@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
@@ -32,13 +32,13 @@ st.markdown(contact_form, unsafe_allow_html=True)
 # Social Media Icons (Without Text Labels)
 st.markdown("""
 <div class="social-icons">
-    <a href="https://www.linkedin.com/in/mallikarjun-aitha/" target="_blank">
+    <a href="https://linkedin.com/in/shraddha-shrestha-j06/" target="_blank">
         <img src="https://www.svgrepo.com/show/447138/linkedin-fill.svg" alt="LinkedIn">
     </a>
-    <a href="https://github.com/mallikarjun25/" target="_blank">
+    <a href="https://github.com/shraddha-sthaa/" target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
     </a>
-    <a href="https://www.instagram.com/mallikarjun_aitha/" target="_blank">
+    <a href="https://www.instagram.com/shraddha.sthaa/" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
     </a>
 </div>

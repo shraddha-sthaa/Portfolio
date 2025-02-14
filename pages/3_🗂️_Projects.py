@@ -111,7 +111,7 @@ with st.container():
   with col10:
     st.subheader("Serenity")
     st.write("""
-    Dynamic international travel and tourism website built with Adobe Experience Manager (AEM), showcasing location-based travel destinations and tour options.
+    Serenity is a relaxation app that aids in quick sleep with soothing sounds and bedtime stories, while also providing emotional guidance through articles. It offers integrated payment options and allows users to connect (book an appointment & have a real time conversation) with psychologists for support
     """)
     st.markdown('`Adobe Experience Manager (AEM)`, `Maven`, `Postman API`, `HTL`, `HTML`, `PostgreSQL`, `Web Development`, `REST APIs`, `OSGi`, `Git`, `React.js`, `User Experience (UX)`')
-    st.markdown('[GitHub](https://github.com/mallikarjun25/Geeks-Holiday-Planners)')
+    st.markdown('[GitHub](https://github.com/shraddha-sthaa/SerenityApp.git)')
